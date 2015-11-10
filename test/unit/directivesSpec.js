@@ -1,9 +1,11 @@
 'use strict';
 
-describe('myApp.version module', function() {
-  beforeEach(module('myApp.version'));
+/* jasmine specs for directives go here */
 
-  describe('app-version directive', function() {
+describe('directives', function() {
+  beforeEach(module('myApp.directives'));
+
+  describe('app-version', function() {
     it('should print current version', function() {
       module(function($provide) {
         $provide.value('version', 'TEST_VER');
