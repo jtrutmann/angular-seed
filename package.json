@@ -43,7 +43,7 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server ./app -p 5000 -c-1 -S",
+    "start": "node server.js",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
