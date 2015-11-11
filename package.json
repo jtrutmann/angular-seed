@@ -6,7 +6,7 @@
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
   "engines": {
-    "node": "4.1.1",
+    "node": "4.2.2",
     "npm": "2.14.x"
   },
 
@@ -50,7 +50,7 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "start": "http-server ./app -p 8080 -c-1",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
