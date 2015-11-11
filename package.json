@@ -5,6 +5,10 @@
   "description": "A starter project for AngularJS",
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
+  "engines": {
+    "node": "4.1.1",
+    "npm": "2.14.x"
+  },
 
   "devDependencies": {
     "bower": "^1.3.1",
